@@ -1,0 +1,200 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  height: 12vh;
+  width: 100vw;
+  color: white;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 25vw 55vw 20vw;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+  border-bottom: 2px solid white;
+  /* border: 2px solid red; */
+}
+
+.left {
+  display: grid;
+  grid-template-columns: 9vw 15vw; 
+  /* border: 2px solid yellow; */
+}
+
+#logo {
+  height: 4vh;
+  justify-self: center;
+  align-self: center;
+  border: 2px solid white;
+}
+
+.left span {
+  font-weight: bold;
+  font-size: calc(10px + 1vw) ;
+  align-self: center;
+  font-family: "Rowdies", cursive;
+  /* border: 2px solid purple; */
+}
+
+.mid {
+  font-family: "Rowdies", cursive;
+  /* border: 2px solid darkmagenta; */
+}
+
+.items {
+  margin: 4.5vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* border: 2px solid pink; */
+}
+
+.items li {
+  list-style: none;
+  text-align: center;
+  /* border: 2px solid brown; */
+}
+
+.items li a {
+  color: white;
+  text-decoration: none;
+  font-size: calc(7px + 1vw);
+  padding: 0.5vw;
+  border-radius: 25%;
+  /* border: 2px solid white; */
+}
+
+.items li a:hover {
+  color: black;
+  background-color: white;
+}
+
+.dropdowns {
+  padding: 1vw;
+  position: absolute;
+  text-decoration: none;
+  left: 30vw;
+  width: 15vw;
+  background-color: peru;
+  font-size: calc(10px + 1vw) ;
+  border-radius: 1vw;
+  display: none;
+}
+
+.item1:hover .dropdowns {
+  display: block;
+}
+
+.right {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-items: center;
+  /* border: 2px solid yellow; */
+}
+
+.btn {
+  background-color: peru;
+  color: white;
+  /* width: 6vw; */
+  /* font-size: calc(5px + 1vw); */
+  cursor: pointer;
+  border: none;
+  border-radius: 30%;
+  font-family: "Rowdies", cursive;
+}
+
+.content {
+  position: relative;
+  width: 100vw;
+  top: 15vh;
+  
+  /* border: 5px solid blue; */
+}
+
+.footer {
+  position: relative;
+  bottom: 0vh;
+  margin-top: 15vh;
+  padding: 5vh;
+  color: white;
+  background-color: black;
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+  border-top: 2px solid white;
+  /* border: 2px solid pink; */
+}
+
+.ftr {
+  /* width: 500px; */
+  margin: auto;
+  text-align: center;
+  font-family: "Rowdies", cursive;
+  font-size: calc(2px + 1vw) ;
+  /* border: 2px solid blue; */
+}
+
+.acc {
+  /* width: 50%; */
+  margin: auto;
+  /* border: 2px solid white; */
+}
+
+.acc-logo {
+  height: 3vh;
+  /* border: 2px solid yellow; */
+}
+
+.abt{
+  margin-bottom: 5vh;
+  display: grid;
+  grid-template-columns:50% 50%;
+  /* display: grid;
+  grid-template-areas: "abt-content abt-img"; */
+  /* border: 3px solid darkgreen; */
+}
+
+.abt-content{
+  padding: 2vw 2vw 2vw 3vw;
+  /* border: 2px solid red; */
+}
+
+.abt-img{
+  justify-self: center;
+  align-self: center;
+  /* border: 2px solid blue; */
+}
+
+.abt-i{
+  height: 50vh;
+  width: 40vw;
+  align-self: center;
+  border: 2px solid black;
+}
+
+.abt-ic{
+  height: 50vh;
+  width: 50vw;
+  align-self: center;
+  /* border: 2px solid black; */
+}
+
+.form{
+  position: relative;
+  width: 60vw;
+  margin: auto;
+  padding: 2vw;
+  border-radius: 2vw;
+  font-family: "Rowdies", cursive;
+  border: 0.2vw solid black;
+}
+
+.websites{
+  margin: 2vw 5vw 10vw 5vw;
+  border: 0.2vw solid black;
+
+}
